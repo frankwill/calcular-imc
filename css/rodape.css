@@ -1,0 +1,12 @@
+.rodape {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.rodape__autor {
+    text-align: center;
+    font-size: 13px;
+    padding: 1rem 0;
+}
