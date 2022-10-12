@@ -1,0 +1,69 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    gap: 1rem;
+}
+.img__banner {
+    width: 250px;
+    margin-top: 8rem;
+}
+
+.banner__container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background: var(--azul-royal);
+    width: 90%;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.banner__titulo {
+    color: var(--branco);
+    font-weight: 700;
+    line-height: normal;
+}
+
+.banner__texto {
+    font-size: 12px;
+    color: var(--branco);
+    line-height: normal;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background: var(--azul-claro);
+
+}
+
+.lista__item-input {
+    border-style: none;
+    padding: .5rem;
+}
+
+.lista__item-input::placeholder {
+    font-family: var(--fonte-principal);
+}
+
+.botao__calculo {
+    width: 50%;
+    border-style: none;
+    padding: .5rem 2rem;
+    background: var(--laranja);
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    color: var(--branco);
+}
+
+.botao__calculo:hover {
+    background: var(--laranja-hover);
+}
+
+
+
+
+
