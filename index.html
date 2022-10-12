@@ -21,26 +21,26 @@
                 <h2 class="banner__titulo">Ainda não sabe qual o seu Índice de Massa Corporal (IMC)?</h2>
                 <p class="banner__texto">Faça o cálculo aqui mesmo e conheça mais sobre o seu corpo.</p>
             </div>
-
-            <div class="lista banner__container">
-                <ul class="lista">
-                    <li class="lista__item">
-                        <input type="number" name="altura" placeholder="Altura (m)" class="lista__item-input">
-                    </li>
-                    <li class="lista__item">
-                        <input type="number" name="peso" placeholder="Peso (kg)" class="lista__item-input">
-                    </li>
-                </ul>
-                <button class="botao__calculo">Calcular</button>
-            </div>
-            
         </section>
-
+        
+        <section class="banner">
+            <form id="form-calculadora">
+                <div class="grupo">
+                    <input id="altura" name="altura" type="text" placeholder="Altura (m)" class="campo-input">
+                </div>
+                <div class="grupo">
+                    <input id="peso" name="peso" type="text" placeholder="Peso (kg)" class="campo-input">
+                </div>
+                <button id="calcular-imc" class="botao">Calcular</button>
+            </form>
+        </section>
     </main>
+
     
     <footer class="rodape">
         <h4 class="rodape__autor">Desenvolvido por Frank William</h4>
     </footer>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
