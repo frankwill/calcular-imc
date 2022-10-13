@@ -25,7 +25,11 @@ botao.addEventListener("click", function (event) {
     }
 
     var imc = peso / (altura * altura);
-    console.log(imc.toFixed(2))
+    // console.log(imc.toFixed(2))
 
+    var imcResult = document.querySelector(".imc__resultado");
+    imcResult.textContent = "Seu imc é de: " + imc.toFixed(2);
+    console.log(imcResult)
 
+    form.appendChild(imcResult);
 })

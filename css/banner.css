@@ -51,10 +51,11 @@
 
 .campo-input::placeholder {
     font-family: var(--fonte-principal);
+    text-align: center;
 }
 
 .botao {
-    width: 40%;
+    width: 45%;
     border-style: none;
     padding: .5rem 2rem;
     background: var(--laranja);
@@ -65,6 +66,11 @@
 
 .botao:hover {
     background: var(--laranja-hover);
+}
+
+.imc__resultado {
+    color: var(--branco);
+    font-weight: 700;
 }
 
 
