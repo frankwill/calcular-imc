@@ -118,7 +118,34 @@
     }
 }
 
+@media screen and (min-width: 1440px) {
+    .img__banner {
+        width: 50%;
+    }
 
+    .banner__titulo {
+        font-size: 28px;
+    }
+
+    .banner__texto {
+        font-size: 18px;
+    }
+    
+    .botao {
+        width: 100%;
+        font-size: 28px;
+    }
+
+    .campo-input {
+        width: 95%;
+        font-size: 28px;
+    }
+
+    .imc__resultado {
+        font-size: 28px;
+        padding: 1rem;
+    }
+}
 
 
 
