@@ -2,7 +2,9 @@
     <br>:bookmark_tabs: Calculadora de IMC.
 </h1>
 
-<img src="/Desktop/Calcule seu imc/calcular-imc.png">
+<p aling="center">
+<img src="https://user-images.githubusercontent.com/89812024/195703302-b9fac988-2add-4669-acda-fa5ab618e691.png">
+</p>
 
 Projeto pessoal trabalhado desde o HTML, CSS e meus primeiros passos com JavaScript
 
